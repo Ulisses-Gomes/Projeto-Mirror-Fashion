@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/sobre.css">
     <title>Sobre Mirror Fashion</title>
 </head>
 
@@ -12,15 +15,16 @@
     <!--Area de Menu-->
     <header class="container">
         <h1>
-            <img src="img/logo.png" alt="Mirror Fashion">
+            <!--Logo da Mirror Fashion-->
+            <img src="img/logo.png" alt="Logo da Mirror Fashion">
         </h1>
         <p class="sacola">Nenhum item na sacola de compras</p>
-        <nav id="menu-opcoes">
+        <nav class="menu-opcoes">
             <ul>
                 <li><a href="">Sua Conta</a></li>
                 <li><a href="">Lista de Desejos</a></li>
                 <li><a href="">Cartão Fidelidade</a></li>
-                <li><a href="#sobre.html">Sobre</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="">Ajuda</a></li>
             </ul>
         </nav>
@@ -32,19 +36,21 @@
         Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de
         participação em 118 deles.</p>
 
-    <p>Nosso centro de distribuição fica em Jacarezinho, no Paraná. De lá, saem 48 aviões que
+    <p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho" target="_blank">Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que
         distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
-    <figure>
+        <!--Imagem do centro de distribuição-->
+    <figure id="centro-distribuicao">
         <img src="img/centro-distribuicao.png" alt="Foto do centro de distribuição da Mirror Fashion">
         <figcaption>Centro de Distribuição da Mirror Fashion</figcaption>
     </figure>
-    <p>Compre suas roupas e acessórios na Mirror Fashion. Acesse nossa loja ou entre em contato
-        se tiver dúvidas. Conheça também nossa história e nossos diferenciais.</p>
+    <p>Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou entre em contato
+        se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.</p>
 
-    <h2>História</h2>
-    <figure>
+    <h2 id="historia">História</h2>
+    <!--Imagem da familia Pelho-->
+    <figure id="familia-pelho">
         <img src="img/familia-pelho.jpg" alt="Foto da Familia Pelho">
-        <figure>Família Pelho</figure>
+        <figcaption>Família Pelho</figcaption>
     </figure>
     <p>A fundação em 1932 ocorreu no momento da descoberta econônica do interior do Paraná. A
         <em>família Pelho</em>, tradicional da região, investiu todas as suas economias nessa nova iniciativa,
@@ -65,8 +71,7 @@
         homenagens e condecorações. Todos os presidentes do Brasil já visitaram as instalações da Mirror
         Fashion, além de presidentes da União Européia, Ásia e o secretário-&shy;geral da ONU.</p>
 
-    <h2>Diferenciais</h2>
-
+    <h2 id="diferenciais">Diferenciais</h2>
     <ul>
         <li>Menor preço do varejo, garantido</li>
         <li>Se você achar uma loja mais barata, leva o produto de graça</li>
@@ -77,6 +82,10 @@
         <li>Presente em 124 países</li>
         <li>Mais de um milhão de funcionários em todo o mundo</li>
     </ul>
+    <div id="rodape">
+        <img src="img/logo.png" alt="Logo da Mirror Fashion">
+        &copy; Copyright Mirror Fashion
+    </div>
 </body>
 
 </html>
